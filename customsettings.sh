@@ -67,6 +67,10 @@ rm -r ~/Library/Containers/com.apple.RemoteDesktop
 echo "Unhide user ~/library folder"
 chflags nohidden ~/Library
 
+echo "Disable .DS_Store files on USB and network drives"
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
 # Apply UI settings now
 echo "Restart desktp services"
 killall SystemUIServer
