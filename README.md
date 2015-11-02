@@ -7,4 +7,6 @@ __Note:__ the `disablebonjour-10.11.sh` script is not mine. It was created by:
 	VERSION 2.0  RELEASE DATE OCT 1 2014
 	DESC:  DISABLES BONJOUR ADVERTISING
 
+Original source link: [MacMiniVault on GitHub](https://github.com/MacMiniVault/Mac-Scripts/blob/master/disablebonjour/disablebonjour.sh)
+
 ###### I will add my own OS X customization scripts later
