@@ -32,7 +32,6 @@ The settings I use for NeoVim. NeoVim is a modern fork of the Vim editor and I p
 	ln -s ~/.vim
 	ln -s ~/.vimrc ~/.vim/init.vim
 	brew install macvim --env-std --override-system-vim
-	sudo pip2 install --user powerline
 	brew install ctags
 
 Keep in mind that I am using the `Vundle` and `Pathogen` plugins for plugin management in nvim (you can find it [here](https://github.com/VundleVim/Vundle.vim)), a long with several plugins. The one that may cause you the biggest issues is the `YouCompleteMe` plugin, which is fairly well documented here:
@@ -52,3 +51,5 @@ The rest of the plugins I have listed in the `vimrc` file can be installed by ru
 ### Hack for Powerline
 
 These are a set of fonts that have been modified to work with the `powerline-status` Vim plugin. The original source of these files (un-modified): [Hack](http://sourcefoundry.org/hack/).
+
+Install the fonts by selecting them all in Finder and following the dialog box instructions.
