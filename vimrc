@@ -25,9 +25,10 @@ set laststatus=2
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Let Vundle manage itself
 Plugin 'VundleVim/Vundle.vim'
 
-" Add plugins here
+" Add plugins below here
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'plasticboy/vim-markdown'
