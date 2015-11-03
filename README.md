@@ -48,3 +48,7 @@ You can install both Vundle and YouCompleteMe like so:
 	./install.py --clang-completer
 
 The rest of the plugins I have listed in the `vimrc` file can be installed by running the following command in neovim (`mvim` in terminal): `:PluginInstall`.
+
+### Hack for Powerline
+
+These are a set of fonts that have been modified to work with the `powerline-status` Vim plugin. The original source of these files (un-modified): [Hack](http://sourcefoundry.org/hack/).
