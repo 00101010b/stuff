@@ -29,14 +29,13 @@ The settings I use for NeoVim. NeoVim is a modern fork of the Vim editor and I p
 	cd ~
 	mv ~/vimrc ~/.vimrc
 	mkdir -p ~/.vim/bundle ~/.vim/autoload ~/.vim/after
-	ln -s ~/.vim ~/.config/nvim
-	ln -s ~/.vimrc ~/.config/nvim/init.vim
-	brew tap neovim/neovim
-	brew install --HEAD neovim
-	sudo pip2 install neovim
+	ln -s ~/.vim
+	ln -s ~/.vimrc ~/.vim/init.vim
+	brew install macvim --env-std --override-system-vim
+	sudo pip2 install --user powerline
 	brew install ctags
 
-Keep in mind that I am using the `Vundle` plugin for plugin management in nvim (you can find it [here](https://github.com/VundleVim/Vundle.vim)), a long with several plugins. The one that may cause you the biggest issues is the `YouCompleteMe` plugin, which is fairly well documented here:
+Keep in mind that I am using the `Vundle` and `Pathogen` plugins for plugin management in nvim (you can find it [here](https://github.com/VundleVim/Vundle.vim)), a long with several plugins. The one that may cause you the biggest issues is the `YouCompleteMe` plugin, which is fairly well documented here:
 
 (https://github.com/Valloric/YouCompleteMe)
 
@@ -47,6 +46,5 @@ You can install both Vundle and YouCompleteMe like so:
 	git clone https://github.com/Valloric/YouCompleteMe.git
 	cd YouCompleteMe
 	./install.py --clang-completer
-	curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
-The rest of the plugins I have listed in the `vimrc` file can be installed by running the following command in neovim (`nvim` in terminal): `:PluginInstall`.
+The rest of the plugins I have listed in the `vimrc` file can be installed by running the following command in neovim (`mvim` in terminal): `:PluginInstall`.
