@@ -24,7 +24,7 @@ Source of settings used: [Awesome OS X Commandline](https://github.com/herrbisch
 The settings I use for tmux. If you want to try them on your Mac, you will need to install tmux via homebrew like so: `brew install tmux && brew install reattach-to-user-namespace --wrap-pbcopy-and-pbpaste`. You just need to rename the file to `.tmux.conf` and place it in the root of your home directory `~/`.
 
 ### vimrc
-The settings I use for NeoVim. NeoVim is a modern fork of the Vim editor and I prefer it over MacVim. If you want to use it you will need to, download the file to the root of your home folder `~/` and do the following in terminal:
+The settings I use for MacVim. MacVim is a modern fork of the Vim editor. If you want to use it you will need to, download the file to the root of your home folder `~/` and do the following in terminal:
 
 	cd ~
 	mv ~/vimrc ~/.vimrc
@@ -34,7 +34,7 @@ The settings I use for NeoVim. NeoVim is a modern fork of the Vim editor and I p
 	brew install macvim --env-std --override-system-vim
 	brew install ctags
 
-Keep in mind that I am using the `Vundle` and `Pathogen` plugins for plugin management in nvim (you can find it [here](https://github.com/VundleVim/Vundle.vim)), a long with several plugins. The one that may cause you the biggest issues is the `YouCompleteMe` plugin, which is fairly well documented here:
+Keep in mind that I am using the `Vundle` for plugin management in MacVim (you can find it [here](https://github.com/VundleVim/Vundle.vim)), a long with several plugins. The one that may cause you the biggest issues is the `YouCompleteMe` plugin, which is fairly well documented here:
 
 (https://github.com/Valloric/YouCompleteMe)
 
