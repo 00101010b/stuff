@@ -18,13 +18,8 @@ set lines=38
 " Python Interpretor
 let g:python_host_prog = '/usr/bin/python'
 
-" Install powerline-status
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+" For Powerline-Status Plugin to work
 set laststatus=2
-
-
 
 " VUNDLE PACKAGE MANAGER
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -36,6 +31,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'plasticboy/vim-markdown'
+Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call vundle#end()
 filetype plugin indent on
