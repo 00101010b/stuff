@@ -10,7 +10,7 @@ set smartindent
 syntax on
 filetype off
 set expandtab
-set guifont=Hack\ for\ Powerline:h18
+set guifont=Hack\ for\ Powerline:h18  " I am on a retina MacBook Pro, hence the large size
 set clipboard=unnamed
 set columns=100
 set lines=38
