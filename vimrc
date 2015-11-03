@@ -13,10 +13,10 @@
 :set clipboard=unnamed
 
 " Pathogen Package Manager
-" execute pathogen#infect() 
+"execute pathogen#infect() 
 
 " Powerline Settings
-let g:Powerline_symbols = 'fancy'
+"let g:Powerline_symbols = 'fancy'
 
 " Python Interpretor
 let g:python_host_prog = '/usr/bin/python'

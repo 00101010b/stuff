@@ -47,5 +47,6 @@ You can install both Vundle and YouCompleteMe like so:
 	git clone https://github.com/Valloric/YouCompleteMe.git
 	cd YouCompleteMe
 	./install.py --clang-completer
+	curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 The rest of the plugins I have listed in the `vimrc` file can be installed by running the following command in neovim (`nvim` in terminal): `:PluginInstall`.
