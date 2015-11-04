@@ -31,7 +31,9 @@ The settings I use for MacVim. MacVim is a modern fork of the Vim editor. If you
 	mkdir -p ~/.vim/bundle ~/.vim/autoload ~/.vim/after
 	ln -s ~/.vim
 	ln -s ~/.vimrc ~/.vim/init.vim
-	brew install macvim --env-std --override-system-vim
+	brew install macvim --HEAD \
+	--with-cscope --with-lua --with-override-system-vim \
+	--with-luajit --with-python
 	brew install ctags
 
 Keep in mind that I am using the `Vundle` for plugin management in MacVim (you can find it [here](https://github.com/VundleVim/Vundle.vim)), a long with several plugins. The one that may cause you the biggest issues is the `YouCompleteMe` plugin, which is fairly well documented here:
