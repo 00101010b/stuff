@@ -79,4 +79,4 @@ killall -9 NotificationCenter
 
 # Shutdown and restart
 # echo "Restarting computer"
-#sudo shutdown -r now
+sudo reboot
