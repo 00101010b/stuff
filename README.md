@@ -55,3 +55,7 @@ The rest of the plugins I have listed in the `vimrc` file can be installed by ru
 These are a set of fonts that have been modified to work with the `powerline-status` Vim plugin. The original source of these files (un-modified): [Hack](http://sourcefoundry.org/hack/).
 
 Install the fonts by selecting them all in Finder and following the dialog box instructions.
+
+### twitter-block-spammers*.py
+
+Custom scripts I co-wrote to block spammers on twitter. Requires the "TwitterAPI" python library to be installed and valid Twitter API account access codes. Refer to the source code for details.
