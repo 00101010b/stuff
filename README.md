@@ -59,3 +59,9 @@ Install the fonts by selecting them all in Finder and following the dialog box i
 ### twitter-block-spammers*.py
 
 Custom scripts I co-wrote to block spammers on twitter. Requires the "TwitterAPI" python library to be installed and valid Twitter API account access codes. Refer to the source code for details.
+
+### hosts-up.ps1
+
+Custom powershell script that checks a whole IP range to see what machines are responding to pings and saves the output to a CSV file that can be imported into Excel. Before running this script you will need to open a Powershell terminal as Admin and issue the following command: `Set-ExecutionPolicy -executionPolicy Unrestricted -Scope CurrentUser`.
+
+Be warned that this allows any powershell script to run as the current logged in user.
